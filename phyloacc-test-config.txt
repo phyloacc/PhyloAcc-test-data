@@ -1,9 +1,9 @@
-PHYTREE_FILE test/neut_ver3_final.named.mod
-SEG_FILE test/simu_500_200_diffr_2-1.bed
-ALIGN_FILE test/simu_500_200_diffr_2-1.fasta
-ID_FILE test/ID.txt
-RESULT_FOLDER test/result_tmp/
-PREFIX simu_500_200_2-1
+PHYTREE_FILE ratite.mod
+SEG_FILE simu_500_200_diffr_2-1.bed
+ALIGN_FILE simu_500_200_diffr_2-1.fa
+ID_FILE id-subset.txt
+RESULT_FOLDER phyloacc-binary-test/
+PREFIX phyloacc-test
 BURNIN 500
 MCMC 1000
 CHAIN 1
