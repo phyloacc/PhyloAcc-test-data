@@ -238,7 +238,7 @@ procs_per_batch: 1
 # The number of processes (cores) to use for each batch of PhyloAcc.
 # DEFAULT: 1.
 
-num_jobs: 5
+num_jobs: 1
 # Number of jobs (-j)      
 # The number of jobs (batches) that Snakemake will submit at once to your cluster
 # DEFAULT: 1.
